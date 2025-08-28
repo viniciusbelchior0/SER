@@ -631,8 +631,8 @@ def gerar_recibo():
 
     #Enviar email
     def enviar_email(dados,segunda_via):
-        remetente = "ser.stf.fcav@gmail.com"
-        senha_app = "ltlxboevgtdxyean"
+        remetente = "remetente@email.com"
+        senha_app = "senha"
         dados = dados
 
         # Nome e caminho completo do PDF
@@ -1334,4 +1334,5 @@ def menu_principal():
     janela_menu.mainloop()
 
 #Executar o código:
+
 menu_principal()
