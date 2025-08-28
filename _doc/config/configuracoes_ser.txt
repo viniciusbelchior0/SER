@@ -1,0 +1,14 @@
+Criar venv:
+virtualenv ser #criar novo ambiente
+ser\Scripts\activate #ativar
+pip install #instalar pacotes
+pip freeze -r requirements.txt
+deactivate #desativar e restaurar para o ambiente global
+
+
+Criar exe:
+pip install pyinstaller
+pyinstaller --onefile --noconsole --icon=icone_recibo.ico --name="ReciboDigital" recibo_app.py
+dist/ → onde estará o executável: recibo_app.exe
+Relatórios PDF vão aparecer na mesma pasta onde o .exe for executado.
+
